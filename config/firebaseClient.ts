@@ -1,8 +1,7 @@
 // src/config/firebaseClient.ts
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-import * as dotenv from 'dotenv';
-dotenv.config();
+
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
   authDomain: process.env.AUTH_DOMAIN,

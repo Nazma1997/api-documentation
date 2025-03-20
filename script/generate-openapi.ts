@@ -1,5 +1,5 @@
 import fs from "fs";
-import { generateSwaggerDocs } from "../config/swaggerOptions";
+import { generateSwaggerDocs } from "../config/swaggerConfig";
 
 const swaggerOptions: object = generateSwaggerDocs();
 
